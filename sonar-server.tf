@@ -26,6 +26,6 @@ resource "aws_instance" "sonar-server" {   # we are creating a new instance for 
     }
 
     tags = {
-        Name = "sonar-server"  # this will provide name to instance 
+        Name = "sonar-server"  # this will provide name to instance. 
     }
 }
